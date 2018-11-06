@@ -1,0 +1,33 @@
+{
+  "name": "dietarydetectives",
+  "version": "0.0.1",
+  "description": "first prototype",
+  "main": ".src/server/index.js",
+  "scripts": {
+    "start": "node ./src/server/index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:ashgracias/dietary-detectives.git"
+  },
+  "keywords": [
+    "diet",
+    "allergy",
+    "restrictions",
+    "search"
+  ],
+  "author": "ashgracias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com:ashgracias/dietary-detectives/issues"
+  },
+  "homepage": "https://github.com:ashgracias/dietary-detectives#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "prettier": "^1.14.3"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.3"
+  }
+}
